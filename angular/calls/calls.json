@@ -3,24 +3,24 @@
 
 {
 	"name": "Todd Smith", 
-	"skill": ".NET",
+	"skill": "Rodeo Clown",
 	"salary":"$100k",
-	"location":"New Jersey"
+	"location":"Texas"
 
 	}, 
 
 	{
-		"name": "Korey Pace",
-		"skill": "Product",
-		"salary" : "$0k",
-		"location":"New York"
+		"name": "Pirate Guy",
+		"skill": "Pirate Stuff",
+		"salary" : "$50k",
+		"location":"Barbados"
 	},
 
 	{
 		"name": "Watts Johnson",
-		"skill": "QA",
-		"salary": "90k",
-		"location": "New York"
+		"skill": "Help Desk",
+		"salary": "$80k",
+		"location": "His Desk"
 	}
 
 	]

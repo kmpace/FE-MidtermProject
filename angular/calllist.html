@@ -1,31 +1,31 @@
-<form class="form-inline">
+<form class="form-inline" novalidate>
   <div class="form-group">
     <label for="exampleInputName2">Name</label>
     <input type="text" class="form-control" id="exampleInputName2" placeholder="Candidate Name" 
-      ng-model="adding_call.name">
+      ng-model="adding_call.name" required>
   </div>
   <div class="form-group">
     <label for="exampleInputEmail2">Skill</label>
     <input type="text" class="form-control" id="exampleInputSkill" placeholder="Skill"
-    ng-model="adding_call.skill">
+    ng-model="adding_call.skill" required>
   </div>
    <div class="form-group">
     <label for="exampleInputEmail2">Salary</label>
     <input type="text" class="form-control" id="exampleInputSalary" placeholder="Salary"
-    ng-model="adding_call.salary">
+    ng-model="adding_call.salary" required required>
   </div>
      <div class="form-group">
     <label for="exampleInputEmail2">Location</label>
     <input type="text" class="form-control" id="exampleInputLocation" placeholder="Location"
-    ng-model="adding_call.location">
+    ng-model="adding_call.location" required>
   </div>
 
   <button type="submit" class="btn btn-success" ng-click="addCall(adding_call)">Add Call</button>
   <button type="submit" class="btn btn-danger" ng-click="clearCalls(delete_calls)">Clear Calls</button> 
 
 </form>
-
-<table class="table table-hover">
+<div class="col-md-8">
+  <table class="table table-hover">
   <th>Name</th>
   <th>Skill</th>
   <th>Salary</th>
@@ -39,4 +39,5 @@
   </tr>
 
 </table>
+</div>
 

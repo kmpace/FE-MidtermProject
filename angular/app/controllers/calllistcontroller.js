@@ -48,7 +48,10 @@ $scope.calls.push (new_call);
 $scope.adding_call = {};
 
 };
+
 };
+
+
 
 
 callListApp.controller("CallListController", CallListController);
