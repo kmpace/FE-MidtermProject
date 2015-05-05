@@ -1,0 +1,96 @@
+$crystalwhite: #F2F2F2;
+$bodyblue: #25B8D9;
+$darkerblue: #2595C2;
+$black: #000000;
+
+
+html {
+  box-sizing : border-box;
+  min-height: 100%;
+  height: auto;
+  font-size: 14px;
+}
+
+
+body {
+  font-family: "Helvetica Neue", serif;
+  background-color: $bodyblue;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+&:hover {
+  color: $bodyblue;
+  text-decoration: none;
+}
+&.logolink span{
+  color: $bodyblue;
+}
+
+&.logolink span span{
+  color: $darkerblue;
+}
+
+}
+
+nav * {
+  display: inline-block;
+  margin-right: 20px;
+ }
+
+ nav {
+
+  width: 100%;
+  background-color: $crystalwhite;
+}
+
+ 
+form {
+  width: 50%;
+  background: $crystalwhite;
+  min-width: 310px;
+  max-width: 500px;
+  padding: 10px 20px;
+  margin: 20px auto 0 auto;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+
+input {
+  display: block;
+  width: 90%;
+  margin: 10px;
+  padding: 6px;
+}
+
+button {
+display: inline-block;
+background: $bodyblue;
+color: $crystalwhite;
+margin: 0 auto;
+padding: 6px 12px;
+border-radius: 5px;
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+border: 2px solid $bodyblue;
+  &:hover {
+    opacity: 90%;
+  }
+}
+
+&.callentry {
+width: 80%;
+display: inline-block;
+min-width: 500px;
+max-width: 600px;
+margin: 20px auto 20 auto;
+padding: 10px 20px;
+
+
+}
+
+}
+
+
+
+

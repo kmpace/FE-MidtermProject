@@ -1,0 +1,26 @@
+[
+
+
+{
+	"name": "Todd Smith", 
+	"skill": "Rodeo Clown",
+	"salary":"$100k",
+	"location":"Texas"
+
+	}, 
+
+	{
+		"name": "Pirate Guy",
+		"skill": "Pirate Stuff",
+		"salary" : "$50k",
+		"location":"Barbados"
+	},
+
+	{
+		"name": "Watts Johnson",
+		"skill": "Help Desk",
+		"salary": "$80k",
+		"location": "His Desk"
+	}
+
+	]
